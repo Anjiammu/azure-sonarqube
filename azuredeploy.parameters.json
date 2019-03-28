@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.1.0.0",
+  "parameters": {
+    "sqVM_AppName": {
+      "value": "sq2"
+    },
+    "sqVM_AppAdmin_UserName": {
+      "value": "vmAdmin"
+    },
+    "sqVM_AppAdmin_Password": {
+      "value": "anusha@123456"
+    },
+    "sq_PublicIP_DnsPrefix": {
+      "value": "baba920"
+    },
+    "sqDB_Admin_UserName": {
+      "value": "sqlAdmin"
+    },
+    "sqDB_Admin_Password": {
+      "value": "anusha@123456"
+    },
+    "sqDB_ServerName": {
+      "value": "dbserver12"
+    },
+    "sqDB_DBName": {
+      "value": "sonar"
+    },
+    "sqDB_DBEdition": {
+      "value": "Basic"
+    },
+    "sqStorage_AcctType": {
+      "value": "Standard_LRS"
+    },
+    "sqVM_Installation_Type": {      
+       "value": "Secure"      
+    },
+     "sqVM_ReverseProxy_Type": {
+      "value": "IIS"
+    }
+  }
+}
